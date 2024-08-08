@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/p5.min.js"></script>
+      <style>
+        html, body {
+          margin: 0;
+          padding: 0;
+          cursor: crosshair;
+          }
+        canvas {
+          display: block;
+          }
+        h1 {
+          position: absolute;
+          top: 10rem;
+          left: 6rem;
+          z-index: 2;
+          }
+        p {
+          position: absolute;
+          width: 50vw;
+          top: 15rem;
+          left: 6rem;
+          z-index: 2;
+          }
+      </style>
+      <meta charset="utf-8">
+  </head>
+    <body>
+      <h1>✧₊⁺⋆☾⋆.˚₊✩ hola munda! ✩₊˚.⋆☾⋆⁺₊✧</h1>
+      <p>Soy Cony y estoy cursando este ramo para aprender a utilizar y sacar prevecho de las herramientas de programación. Mi primer acercamiento a la programación fue la edición de código HTML para temas de Tumblr (2012). Mi mayor interés profesional es el área de UI/UX.</p>
+    <script>
+      function setup() {
+        createCanvas(windowWidth, windowHeight);
+        background(150, 160, 255);
+        stroke(255,190,220);
+      }
+      function draw() {
+        line(pmouseX, pmouseY, mouseX, mouseY);
+      }
+    </script>
+    </body>
+  </html>
